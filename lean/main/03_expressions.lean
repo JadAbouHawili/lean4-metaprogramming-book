@@ -335,8 +335,8 @@ allows us to more conveniently construct and destruct larger expressions.
 1. Create expression `1 + 2` with `Expr.app`.
 2. Create expression `1 + 2` with `Lean.mkAppN`.
 3. Create expression `fun x => 1 + x`.
-4. [**De Bruijn Indexes**] Create expression `fun a, fun b, fun c, (b * a) + c`.
-5. Create expression `fun x y => x + y`.
+4. [**De Bruijn Indexes**] Create expression `fun x => fun y => x + y`.
+5. Create expression `fun a b c => (b * a) + c`.
 6. Create expression `fun x, String.append "hello, " x`. Hint: use `Literal.strVal : String → Literal`.
 7. Create expression `∀ x : Prop, x ∧ x`.
 8. Create expression `Nat → String`.
