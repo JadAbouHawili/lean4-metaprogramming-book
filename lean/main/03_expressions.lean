@@ -332,6 +332,8 @@ allows us to more conveniently construct and destruct larger expressions.
 
 ## Exercises
 
+Tip: Use the trick just mentioned to check your answers!
+
 1. Create expression `1 + 2` with `Expr.app`.
 2. Create expression `1 + 2` with `Lean.mkAppN`.
 3. Create expression `fun x => 1 + x`.
