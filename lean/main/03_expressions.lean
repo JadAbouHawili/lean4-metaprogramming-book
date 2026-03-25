@@ -338,7 +338,7 @@ allows us to more conveniently construct and destruct larger expressions.
 4. [**De Bruijn Indexes**] Create expression `fun x => fun y => x + y`.
 5. Create expression `fun a b c => (b * a) + c`.
 6. Create expression `fun x, String.append "hello, " x`. Hint: use `Literal.strVal : String → Literal`.
-7. Create expression `∀ x : Prop, x ∧ x`.
+7. Create expression `∀ x : Prop, x ∧ x`. Hint: `Prop` is `Expr.sort Level.zero : Expr`
 8. Create expression `Nat → String`.
 9. Create expression `fun (p : Prop) => (λ hP : p => hP)`.
 10. [**Universe levels**] Create expression `Type 6`.
