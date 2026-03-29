@@ -579,7 +579,7 @@ replaced by `Nat.add`:
 -- Nat.add defaultDef 1
 
 /-!
-With `default` transparency, `Nat.add` is unfolded as well:
+With `default` transparency, `defaultDef` is unfolded as well:
 -/
 
 #eval traceConstWithTransparency .default ``reducibleDef
